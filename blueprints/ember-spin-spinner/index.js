@@ -1,10 +1,7 @@
-/* jshint node: true */
+/* eslint-env node */
 'use strict';
 
 module.exports = {
   normalizeEntityName: function() {},
 
-  afterInstall: function() {
-    return this.addBowerPackageToProject('spin.js');
-  }
 };
